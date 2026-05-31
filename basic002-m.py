@@ -45,7 +45,7 @@ class App:
             # 円の表示
             pyxel.circ(x + 4, 80, 8, i)
 
-        # 各キャラクタの移動
+        # 各キャラクタの描画処理
         pass
 
 if __name__ == "__main__":

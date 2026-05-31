@@ -3,7 +3,7 @@ import pyxel
 class App:
     def __init__(self):
         # pyxelの初期化
-        pyxel.init(160,120, caption="基本")
+        pyxel.init(160,120, title="基本")
 
         # 各キャラクタの準備
 
@@ -24,7 +24,7 @@ class App:
         # 画面クリア(色番号)
         pyxel.cls(0)
 
-        # 各キャラクタの移動
+        # 各キャラクタの描画処理
         pass
 
 if __name__ == "__main__":
